@@ -2,6 +2,9 @@
 
 ## Fall 2022 Final project OIM3640
 
+<h3><b>Team Members: Jean Albino, Sakshyam Tripathi </b></h3>
+<br>
+
 ###  Big Idea
 Create a program that generates food recipes that fit user criteria such as cuisine, dietary restrictions, or nutritional goals.
 
