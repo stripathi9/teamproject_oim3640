@@ -21,6 +21,9 @@ def query_string(dish, cuisine=None, diet=None, allergies=None, time=None, info 
     return response_data
 
 def output(dish, cuisine=None, diet=None, allergies=None, time=None, info = 'true', instructions = 'true'):
+    """
+    generates a random recipe from the response data in query_string() function that satisfies the user arguments
+    """
     recipe = []
     response = query_string(dish, cuisine, diet, allergies,time)
     while True:
