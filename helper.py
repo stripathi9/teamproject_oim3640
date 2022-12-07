@@ -45,31 +45,3 @@ def output(dish, cuisine=None, diet=None, allergies=None, time=None, info = 'tru
             else:
                 break
     return title, description, recipe
-
-# for i in range(10):
-#     print(output('taco', 'mexican'))
-# # print(output('taco', 'mexican'))
-
-
-    
-    # while len(response["results"][recipe_number]["analyzedInstructions"]) == 0:
-    #     recipe_number = random.randint(0,len((response['results'])))
-    #     title = response["results"][recipe_number]["title"]
-    #     steps = response["results"][recipe_number]["analyzedInstructions"][0]["steps"]
-    #     image = response["results"][recipe_number]["image"]
-    #     for i in range(len(steps)):
-    #         numbered = steps[i]['step']
-    #         recipe.append(f'{i+1}. {numbered}') 
-    #         break
-    #     summary = (response['results'][recipe_number]['summary'])
-    # steps = response["results"][recipe_number]["analyzedInstructions"][0]["steps"]
-    # for i in range(len(steps)):
-    #     numbered = steps[i]['step']
-    #     recipe.append(f'{i+1}. {numbered}')
-    # summary = (response['results'][recipe_number]['summary'])
-    # image = response["results"][recipe_number]["image"]
-    
-    # return title, description, recipe
-
-
-# output('pasta')
