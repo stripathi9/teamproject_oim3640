@@ -1,6 +1,4 @@
-import urllib.request
 import json
-from pprint import pprint
 import requests as s
 import random
 

@@ -41,3 +41,15 @@ Create a program that generates food recipes that fit user criteria such as cuis
 
 
 
+## Code Implementation 
+
+### Imported Libraries
+* json
+* random
+* request
+* Flask
+
+## Running the Code
+### Only Run 'app.py'
+The code is rather simple to run. All the required importations are already in the python script so no manual installation is required. Further our code requires no manual backend input. Simply running the app.py file will start running the flask application and generate a local host server. The user can then access the link by pressing on the server link created in the terminal. The webpage then has the required form entries where user input is needed to give a viable output. 
+If consistent "error 404" is generated, verify that the app.route in app.py is set to '/'. The flask server port can be changed by editing the port variable in line 29 of app.py
